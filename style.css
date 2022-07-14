@@ -125,6 +125,72 @@ footer{
 }
 
 
+@media screen and (max-width: 992px) {
+
+        .top-banner{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        height: 730px;
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    .banner-summ{
+        grid-column: 1/2;
+        position: absolute;
+        top: 350px;
+        width: 100%;
+        height: 400px;
+        text-align: center;
+    }
+
+    .banner-image{
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+
+    } 
+
+    .banner-image img{
+        height:400px ;
+        position: absolute;
+        left: 25%;
+        text-align: center;
+    }
+    
+    .link-btn{
+        text-decoration: none;
+        color: white;
+        background-image: linear-gradient(35deg,orangered, lightsalmon);
+        border-radius: 20px;
+        padding: 10px 20px;
+    
+    }
+    .banner-summ h1{
+        text-align: center;
+        width: auto;
+       }
+    .banner-summ p{
+        color: dimgray;
+        margin-bottom: 30px;
+    }
+    .my-recipie{
+        /* height: 500px; */
+        margin: 10px;
+        color: dimgray;
+    }
+    .recipie-card{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
 @media screen and (max-width: 660px) {
     .top-banner{
         display: flex;
@@ -138,11 +204,6 @@ footer{
 
 
     }
-    .top-banner::after{
-        content: ' ';
-        clear: both;
-        display: table;
-    }
     .banner-summ{
         grid-column: 1/2;
         position: absolute;
@@ -150,11 +211,6 @@ footer{
         width: 100%;
         height: 400px;
         text-align: center;
-    }
-    .banner-summ::after{
-        clear: both;
-        content: ' ';
-        display: table;
     }
     .banner-image{
         position: absolute;
@@ -228,6 +284,11 @@ footer{
         color:dimgray;
         margin-bottom: 20px;
     }
+    .my-recipie{
+
+        margin: 10%;
+        color: dimgray;
+    }
 
     .recipie-card{
         display: flex;
@@ -245,3 +306,4 @@ footer{
         margin: auto 10px;
     }
 }
+
