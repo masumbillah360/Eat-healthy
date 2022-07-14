@@ -1,0 +1,7 @@
+@media screen and (max-width:660px) {
+    
+    .top-banner{
+        /* flex-direction: row-reverse; */
+        display: grid;
+    }
+}
